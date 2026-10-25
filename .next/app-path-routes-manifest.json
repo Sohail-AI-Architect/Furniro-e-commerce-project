@@ -1,0 +1,18 @@
+{
+  "/icon.png/route": "/icon.png",
+  "/_not-found/page": "/_not-found",
+  "/cart/page": "/cart",
+  "/checkout/page": "/checkout",
+  "/page": "/",
+  "/comparison/page": "/comparison",
+  "/cart-sidebar/page": "/cart-sidebar",
+  "/blog/page": "/blog",
+  "/blog/[id]/page": "/blog/[id]",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/product-comparison/page": "/product-comparison",
+  "/product/[slug]/page": "/product/[slug]",
+  "/shop/page": "/shop",
+  "/wishlist/page": "/wishlist",
+  "/search/page": "/search"
+}

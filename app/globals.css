@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white font-sans text-ink antialiased;
+  }
+
+  ::selection {
+    @apply bg-gold/20;
+  }
+}
+
+@keyframes slide-fade {
+  from {
+    opacity: 0;
+    transform: translateX(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@layer utilities {
+  .animate-slide-fade {
+    animation: slide-fade 0.45s ease-out;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-[1240px] px-5 sm:px-8 lg:px-0;
+  }
+
+  .section-title {
+    @apply text-center text-[32px] font-bold text-ink sm:text-[36px] lg:text-[40px];
+  }
+
+  .section-subtitle {
+    @apply text-center text-base font-normal text-muted-dark sm:text-lg lg:text-xl;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center bg-gold px-10 py-4 text-base font-semibold uppercase tracking-wide text-white transition-colors hover:bg-[#a17a26];
+  }
+
+  .btn-outline-gold {
+    @apply inline-flex items-center justify-center border border-gold bg-transparent px-10 py-3 text-base font-semibold text-gold transition-colors hover:bg-gold hover:text-white;
+  }
+
+  .field {
+    @apply w-full rounded border border-line bg-white px-4 py-3 text-sm text-ink outline-none transition-colors placeholder:text-muted-light focus:border-gold;
+  }
+}

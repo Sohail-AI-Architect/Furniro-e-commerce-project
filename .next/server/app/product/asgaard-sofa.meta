@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/product/layout,_N_T_/product/[slug]/layout,_N_T_/product/[slug]/page,_N_T_/product/asgaard-sofa"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/c244a8e516ed7549e98c98b69282b56baa9844bfdfeb3cb6fd583fd5e68f49ef/$/product/asgaard-sofa",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/product/[slug]/page"
+    },
+    "isFallback": false
+  }
+}

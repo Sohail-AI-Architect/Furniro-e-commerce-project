@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/blog/layout,_N_T_/blog/[id]/layout,_N_T_/blog/[id]/page,_N_T_/blog/exploring-new-ways-of-decorating"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/0cbbc578df92791bd0435c8b77282538069973f7f107cc36e71646d490111f21/$/blog/exploring-new-ways-of-decorating",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/blog/[id]/page"
+    },
+    "isFallback": false
+  }
+}
