@@ -2,3 +2,5 @@ node_modules
 
 opencode.jsonc
 *.jsonc
+
+.next
