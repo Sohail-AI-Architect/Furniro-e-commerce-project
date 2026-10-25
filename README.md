@@ -1,3 +1,7 @@
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-brightgreen?style=for-the-badge&logo=vercel)](https://furniro-e-commerce-project.vercel.app)
+
+**Live Application:** [https://furniro-e-commerce-project.vercel.app](https://furniro-e-commerce-project.vercel.app)
+
 # Furniro E-Commerce Application
 
 A modern, pixel-perfect, fully functional e-commerce storefront built from Figma design specifications. Furniro delivers a polished shopping experience for furniture and home décor across mobile, tablet, and desktop, with interactive product variants, a persistent cart and wishlist, product comparison, dynamic blog search, and a responsive checkout flow.
@@ -167,3 +171,4 @@ npm run build
 
 ## License
 This project is open-source and available under the MIT License.
+
